@@ -1,0 +1,21 @@
+/* .taskList__title {
+  position: absolute;
+}
+
+.taskList__title::after {
+  position: relative;
+  content: "";
+  background-color: blue;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: -0.3em;
+} */
+
+.task-completed {
+  color: green;
+  text-decoration: line-through;
+}
+.task-pending {
+  color: red;
+}

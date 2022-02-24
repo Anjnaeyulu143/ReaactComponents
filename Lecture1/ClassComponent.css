@@ -1,0 +1,6 @@
+.classcomponent__title {
+  text-align: center;
+  color: green;
+  min-height: 0vw;
+  font-size: clamp(1.5rem, 1.25vw, 2rem);
+}

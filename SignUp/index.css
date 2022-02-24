@@ -1,0 +1,18 @@
+.signUp {
+  position: relative;
+}
+.signUp::after {
+  background-color: rgb(34, 34, 221);
+  height: 2px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  bottom: -0.5em;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.signUp:hover::after {
+  transform: scaleX(1);
+}
